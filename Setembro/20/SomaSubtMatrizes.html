@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Operação de Matriz em JavaScript</title>
+    </head>
+    <body>
+        <h1>Calculadora de Matrizes 3x3</h1>
+
+        <h2>Matriz A</h2>
+        <table>
+            <tr>
+                <td><input type="number" id="a11"></td>
+                <td><input type="number" id="a12"></td>
+                <td><input type="number" id="a13"></td>
+            </tr>
+            <tr>
+                <td><input type="number" id="a21"></td>
+                <td><input type="number" id="a22"></td>
+                <td><input type="number" id="a23"></td>
+            </tr>
+            <tr>
+                <td><input type="number" id="a31"></td>
+                <td><input type="number" id="a32"></td>
+                <td><input type="number" id="a33"></td>
+            </tr>
+        </table>
+
+        <h2>Matriz B</h2>
+        <table>
+            <tr>
+                <td><input type="number" id="b11"></td>
+                <td><input type="number" id="b12"></td>
+                <td><input type="number" id="b13"></td>
+            </tr>
+            <tr>
+                <td><input type="number" id="b21"></td>
+                <td><input type="number" id="b22"></td>
+                <td><input type="number" id="b23"></td>
+            </tr>
+            <tr>
+                <td><input type="number" id="b31"></td>
+                <td><input type="number" id="b32"></td>
+                <td><input type="number" id="b33"></td>
+            </tr>
+        </table>
+        <button onclick="calcularSoma()">Calcular Soma</button>
+        <button onclick="calcularSubtracao()">Calcular Subtração</button>
+
+        <h2>Resultado</h2>
+        <table id="resultado">
+            <tr>
+                <td id="r11"></td>
+                <td id="r12"></td>
+                <td id="r13"></td>
+            </tr>
+            <tr>
+                <td id="r21"></td>
+                <td id="r22"></td>
+                <td id="r23"></td>
+            </tr>
+            <tr>
+                <td id="r31"></td>
+                <td id="r32"></td>
+                <td id="r33"></td>
+            </tr>
+        </table>
+
+        <script src="SomaSubtMatrizes.js"></script>
+        
+    </body>
+</html>
